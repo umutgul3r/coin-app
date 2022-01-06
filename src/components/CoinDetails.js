@@ -19,7 +19,7 @@ export default function CoinDetails() {
   return (
     <div className="flex">
       {details.map((item) => (
-        <div className="ml-36 ">
+        <div key={item.name} className="ml-36 ">
           {item.name ? (
             <div className="flex items-center bg-slate-100  h-[50%] p-2 border-2 w-[480px] mt-8  ">
               <img className="w-8 h-8" src={item.image} alt="coin" />

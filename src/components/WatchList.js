@@ -42,7 +42,7 @@ export default function WatchList() {
       </div>
 
       {favlocal.map((item) => (
-        <Link to={`/coins/${item.id}`}>
+        <Link key={item.id} to={`/coins/${item.id}`}>
           <div className="flex justify-center">
             <div className="flex flex-row justify-center items-center h-20 border-2 w-[660px] p-4">
               <div className="flex items-center pr-8 min-w-[300px}">
