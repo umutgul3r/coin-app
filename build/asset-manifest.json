@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.011be87f.css",
+    "main.js": "/static/js/main.2fea60ff.js",
+    "static/media/world-news.png": "/static/media/world-news.7175c955197b82ed0fb0.png",
+    "static/media/invoice.png": "/static/media/invoice.e2b5ff3b4a313afcebb4.png",
+    "static/media/star.png": "/static/media/star.e8090f1bcb44dcfef87f.png",
+    "index.html": "/index.html",
+    "main.011be87f.css.map": "/static/css/main.011be87f.css.map",
+    "main.2fea60ff.js.map": "/static/js/main.2fea60ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.011be87f.css",
+    "static/js/main.2fea60ff.js"
+  ]
+}

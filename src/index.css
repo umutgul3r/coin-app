@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-blue-400 font-bold relative m-1 left-60 text-white rounded-lg p-2;
+  }
+  .chart-btn {
+    @apply bg-blue-400 font-semibold relative m-1  text-black rounded-lg p-2;
+  }
+}
